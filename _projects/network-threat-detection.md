@@ -20,6 +20,6 @@ On the evaluated benchmark scenarios, the system achieved **F1 = 1.0000** on DAR
 
 [GitHub repository](https://github.com/kailee0422/network-threat-detection-deploy) · [Project video](https://youtu.be/eyanoGjfy2g)
 
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/eyanoGjfy2g" title="NICS Project" allowfullscreen></iframe>
+<div style="width:100%;aspect-ratio:16/9;margin-top:1rem;">
+  <iframe src="https://www.youtube-nocookie.com/embed/eyanoGjfy2g" title="NICS Project" style="width:100%;height:100%;border:0;border-radius:12px;" loading="lazy" allowfullscreen></iframe>
 </div>

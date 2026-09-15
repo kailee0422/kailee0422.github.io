@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "AI & Cybersecurity Researcher · Multi-Agent Systems · Applied Machine Learning"
+subtitle: "Software & Firmware Engineering · AI Systems · Applied Machine Learning"
 
 profile:
   align: right
@@ -23,18 +23,20 @@ announcements:
 
 Hi! I am **Chong-Kai Li**, a master's student at the **Institute of Artificial Intelligence, National Yang Ming Chiao Tung University (NYCU)**.
 
-My work focuses on **cybersecurity, intelligent agents, and applied machine learning**, with an emphasis on building end-to-end systems that connect research ideas with deployable software.
+My career interests are centered on **software engineering, firmware-oriented system development, and AI engineering**. I enjoy building reliable end-to-end systems that connect lower-level software, networking or IoT components with intelligent applications. My technical experience spans **C/C++, Python, Linux and Shell, Docker, networking, MQTT/IoT integration, computer vision, LLM/RAG systems, and deployable machine learning**.
 
-My recent work includes **multi-source cyber threat analysis and attack-path reconstruction**, **multi-agent automation**, **retrieval-augmented academic research assistants**, and **computer-vision systems**. I am particularly interested in **AI for cybersecurity**, **LLM/agent systems**, **RAG and domain adaptation**, and **reliable ML deployment**.
+My projects cover several engineering layers: multi-source data pipelines and attack-path reconstruction, multi-agent automation, academic research assistants, IoT-enabled smart energy systems, and computer-vision applications. Rather than defining myself by a single application domain, I am especially interested in the **engineering process behind robust software and intelligent systems**.
 
-Before joining NYCU, I earned my B.S. in **Computer Science and Information Engineering** from the **National University of Tainan**. My undergraduate capstone on AI-based badminton video analysis received **First Place** and the **Most Popular Award** in the department's graduation project competition.
+I have also worked as an **AI Engineer Intern**, where I developed an intelligent question-answering system for manufacturing operations and applied **RAG, SFT, and LoRA** for domain-specific LLM adaptation.
 
-I have also worked as an **AI Engineer Intern**, where I developed an intelligent question-answering system for manufacturing operations and applied techniques including **RAG, SFT, and LoRA** for domain adaptation.
+[**View Projects**]({{ '/projects/' | relative_url }}) ·
+[**View CV**]({{ '/cv/' | relative_url }}) ·
+[**Awards & Honors**]({{ '/awards/' | relative_url }}) ·
+[**LeetCode**]({{ '/leetcode/' | relative_url }}) ·
+[**Download Résumé**]({{ '/assets/pdf/Chong-Kai_Li_Resume.pdf' | relative_url }})
 
-[**View Projects**]({{ '/projects/' | relative_url }}) · [**View CV**]({{ '/cv/' | relative_url }}) · [**Awards & Honors**]({{ '/awards/' | relative_url }}) · [**Download Résumé (PDF)**]({{ '/assets/pdf/Chong-Kai_Li_Resume.pdf' | relative_url }})
+## Engineering focus
 
-## Featured work
-
-- **Multi-Source Attack Path Reconstruction with Weighted Attack Graphs** — cyber threat analysis integrating network, host, and CTI signals.
-- **NYCU-Bot** — a multi-agent system for bilingual award announcement and social-media automation.
-- **Intelligent Research Companion** — a multi-agent academic paper analysis workflow with OCR, citation extraction, RAG, and local LLMs.
+- **Software & Systems** — C/C++, Python, Linux, Shell, Docker, networking, data pipelines, and deployable services.
+- **Firmware / Edge-facing Systems** — IoT sensing, MQTT-based communication, real-time monitoring, and integration between physical devices and software services.
+- **AI Engineering** — PyTorch, Transformers, RAG, LLM agents, computer vision, model integration, and application deployment.

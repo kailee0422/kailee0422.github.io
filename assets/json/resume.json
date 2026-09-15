@@ -1,10 +1,9 @@
 {
   "basics": {
     "name": "Chong-Kai Li",
-    "label": "AI & Cybersecurity Researcher",
+    "label": "Software, Firmware & AI Engineering",
     "email": "aa34239387@gmail.com",
     "url": "https://kailee0422.github.io",
-    "summary": "Master's student in artificial intelligence working on cybersecurity, intelligent agents, retrieval-augmented systems, and deployable machine learning.",
     "profiles": [
       {
         "network": "GitHub",
@@ -115,19 +114,48 @@
   "skills": [
     {
       "name": "Programming",
-      "keywords": ["Python", "C/C++", "Java", "SQL", "HTML/CSS", "MATLAB"]
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Java",
+        "SQL",
+        "HTML/CSS",
+        "MATLAB"
+      ]
     },
     {
       "name": "AI / ML",
-      "keywords": ["PyTorch", "Transformers", "LangChain", "scikit-learn", "OpenCV", "RAG", "SFT", "LoRA"]
+      "keywords": [
+        "PyTorch",
+        "Transformers",
+        "LangChain",
+        "scikit-learn",
+        "OpenCV",
+        "RAG",
+        "SFT",
+        "LoRA"
+      ]
     },
     {
       "name": "Systems & Tools",
-      "keywords": ["Docker", "Linux", "Shell", "pandas", "NumPy", "Ollama"]
+      "keywords": [
+        "Docker",
+        "Linux",
+        "Shell",
+        "pandas",
+        "NumPy",
+        "Ollama"
+      ]
     },
     {
       "name": "Cybersecurity",
-      "keywords": ["Zeek", "Suricata", "Wazuh", "Attack Graphs", "Threat Intelligence"]
+      "keywords": [
+        "Zeek",
+        "Suricata",
+        "Wazuh",
+        "Attack Graphs",
+        "Threat Intelligence"
+      ]
     }
   ]
 }

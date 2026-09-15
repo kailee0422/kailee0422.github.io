@@ -19,6 +19,6 @@ The resulting workflow supports structured extraction of paper content, referenc
 
 [GitHub repository](https://github.com/kailee0422/RNN-Transformer/tree/main/Final%20Project%20-IRC) · [Project video](https://youtu.be/uRMtMFvGOTo)
 
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/uRMtMFvGOTo" title="Intelligent Research Companion" allowfullscreen></iframe>
+<div style="width:100%;aspect-ratio:16/9;margin-top:1rem;">
+  <iframe src="https://www.youtube-nocookie.com/embed/uRMtMFvGOTo" title="Intelligent Research Companion" style="width:100%;height:100%;border:0;border-radius:12px;" loading="lazy" allowfullscreen></iframe>
 </div>

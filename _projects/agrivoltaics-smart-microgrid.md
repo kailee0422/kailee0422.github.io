@@ -18,6 +18,6 @@ The project received **Honorable Mention** in the **2024 Mobile Communications P
 
 [Project video](https://youtu.be/WWejlb_-U-Q) · [Award certificate]({{ '/assets/pdf/Mobile_Communications_Practice_Competition_2024.pdf' | relative_url }})
 
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/WWejlb_-U-Q" title="Agrivoltaics Smart Micro-grid for Leisure Farms" allowfullscreen></iframe>
+<div style="width:100%;aspect-ratio:16/9;margin-top:1rem;">
+  <iframe src="https://www.youtube-nocookie.com/embed/WWejlb_-U-Q" title="Agrivoltaics Smart Micro-grid for Leisure Farms" style="width:100%;height:100%;border:0;border-radius:12px;" loading="lazy" allowfullscreen></iframe>
 </div>
