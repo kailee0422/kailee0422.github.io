@@ -25,7 +25,7 @@ nav_order: 3
       <iframe class="award-pdf" loading="lazy"
         src="{{ '/assets/pdf/NYCU_Outstanding_Student_Award_Semester_2.pdf' | relative_url }}#view=FitH"
         title="College-level Outstanding Student Award certificate"></iframe>
-      <a class="award-pdf-link" href="{{ '/assets/pdf/NYCU_Outstanding_Student_Award_Semester_2.pdf' | relative_url }}" target="_blank">Open PDF ↗</a>
+      <div class="award-actions"><a class="award-pdf-link" href="{{ '/assets/pdf/NYCU_Outstanding_Student_Award_Semester_2.pdf' | relative_url }}" target="_blank">Open full PDF ↗</a><a class="award-pdf-link" href="{{ '/assets/pdf/NYCU_Outstanding_Student_Award_Semester_2.pdf' | relative_url }}" download>Download PDF</a></div>
     </article>
 
     <article class="award-card">
@@ -41,7 +41,7 @@ nav_order: 3
       <iframe class="award-pdf" loading="lazy"
         src="{{ '/assets/pdf/NYCU_Certificate_of_Excellence_Semester_1.pdf' | relative_url }}#view=FitH"
         title="Certificate of Excellence certificate"></iframe>
-      <a class="award-pdf-link" href="{{ '/assets/pdf/NYCU_Certificate_of_Excellence_Semester_1.pdf' | relative_url }}" target="_blank">Open PDF ↗</a>
+      <div class="award-actions"><a class="award-pdf-link" href="{{ '/assets/pdf/NYCU_Certificate_of_Excellence_Semester_1.pdf' | relative_url }}" target="_blank">Open full PDF ↗</a><a class="award-pdf-link" href="{{ '/assets/pdf/NYCU_Certificate_of_Excellence_Semester_1.pdf' | relative_url }}" download>Download PDF</a></div>
     </article>
   </section>
 
@@ -61,7 +61,7 @@ nav_order: 3
       <iframe class="award-pdf" loading="lazy"
         src="{{ '/assets/pdf/Mobile_Communications_Practice_Competition_2024.pdf' | relative_url }}#view=FitH"
         title="Mobile Communications Practice Competition certificate"></iframe>
-      <a class="award-pdf-link" href="{{ '/assets/pdf/Mobile_Communications_Practice_Competition_2024.pdf' | relative_url }}" target="_blank">Open PDF ↗</a>
+      <div class="award-actions"><a class="award-pdf-link" href="{{ '/assets/pdf/Mobile_Communications_Practice_Competition_2024.pdf' | relative_url }}" target="_blank">Open full PDF ↗</a><a class="award-pdf-link" href="{{ '/assets/pdf/Mobile_Communications_Practice_Competition_2024.pdf' | relative_url }}" download>Download PDF</a></div>
     </article>
 
     <article class="award-card">
@@ -77,7 +77,7 @@ nav_order: 3
       <iframe class="award-pdf" loading="lazy"
         src="{{ '/assets/pdf/NUTN_Capstone_First_Place.pdf' | relative_url }}#view=FitH"
         title="First Place capstone certificate"></iframe>
-      <a class="award-pdf-link" href="{{ '/assets/pdf/NUTN_Capstone_First_Place.pdf' | relative_url }}" target="_blank">Open PDF ↗</a>
+      <div class="award-actions"><a class="award-pdf-link" href="{{ '/assets/pdf/NUTN_Capstone_First_Place.pdf' | relative_url }}" target="_blank">Open full PDF ↗</a><a class="award-pdf-link" href="{{ '/assets/pdf/NUTN_Capstone_First_Place.pdf' | relative_url }}" download>Download PDF</a></div>
     </article>
 
     <article class="award-card">
@@ -93,7 +93,7 @@ nav_order: 3
       <iframe class="award-pdf" loading="lazy"
         src="{{ '/assets/pdf/NUTN_Capstone_Most_Popular_Award.pdf' | relative_url }}#view=FitH"
         title="Most Popular Award capstone certificate"></iframe>
-      <a class="award-pdf-link" href="{{ '/assets/pdf/NUTN_Capstone_Most_Popular_Award.pdf' | relative_url }}" target="_blank">Open PDF ↗</a>
+      <div class="award-actions"><a class="award-pdf-link" href="{{ '/assets/pdf/NUTN_Capstone_Most_Popular_Award.pdf' | relative_url }}" target="_blank">Open full PDF ↗</a><a class="award-pdf-link" href="{{ '/assets/pdf/NUTN_Capstone_Most_Popular_Award.pdf' | relative_url }}" download>Download PDF</a></div>
     </article>
   </section>
 
@@ -168,9 +168,15 @@ nav_order: 3
     background: #fff;
   }
 
+  .award-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 0.75rem;
+  }
+
   .award-pdf-link {
     display: inline-block;
-    margin-top: 0.7rem;
     font-size: 0.86rem;
   }
 

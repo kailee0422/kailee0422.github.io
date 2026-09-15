@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: "Software, AI, IoT, and systems projects with implementation links and selected demos."
+description: "Software, embedded/edge, and AI engineering projects with source code, demos, and outcomes."
 nav: true
 nav_order: 2
 ---
@@ -11,13 +11,14 @@ nav_order: 2
 
   <div class="projects-intro">
     <p>
-      Selected projects spanning <strong>software engineering, AI systems, IoT/edge integration,
-      automation, and computer vision</strong>. Source code is linked directly from each project,
-      so a separate Code page is not necessary.
+      Selected projects spanning <strong>software engineering, embedded/edge systems,
+      AI engineering, automation, and computer vision</strong>. Each project highlights
+      what I built, the technologies used, and the resulting outcome. Source code is linked
+      directly from each project.
     </p>
   </div>
 
-  <article class="project-card">
+  <article class="project-card" id="attack-path">
     <div class="project-heading">
       <div>
         <span class="project-kicker">SOFTWARE & AI SYSTEMS · 2025–2026</span>
@@ -33,6 +34,11 @@ nav_order: 2
       VirusTotal CTI, transformer-based threat scoring, and weighted attack graphs</strong>.
       The system reconstructs time-ordered attack paths and was deployed on TWCC with Docker Compose.
     </p>
+
+    <div class="project-facts">
+      <div><span>Contribution</span><strong>Built the multi-source processing, scoring, graph-reconstruction, and deployment workflow.</strong></div>
+      <div><span>Outcome</span><strong>F1 = 1.0000 on DARPA 2000 and a custom TWCC testbed; F1 = 0.9730 on the full six-day ISCXIDS2012 evaluation.</strong></div>
+    </div>
 
     <div class="tech-tags">
       <span>Python</span><span>Transformers</span><span>Docker</span><span>Linux</span>
@@ -50,7 +56,7 @@ nav_order: 2
     </div>
   </article>
 
-  <article class="project-card">
+  <article class="project-card" id="nycu-bot">
     <div class="project-heading">
       <div>
         <span class="project-kicker">AI SOFTWARE ENGINEERING · 2025</span>
@@ -68,13 +74,18 @@ nav_order: 2
       DeepSeek-R1 model through Ollama.
     </p>
 
+    <div class="project-facts">
+      <div><span>Contribution</span><strong>Designed the hierarchical agent architecture and platform-specific publishing workflow.</strong></div>
+      <div><span>Outcome</span><strong>Supports both one-shot execution and continuous polling with configurable update intervals.</strong></div>
+    </div>
+
     <div class="tech-tags">
       <span>Python</span><span>Multi-Agent Systems</span><span>LangChain</span>
       <span>Ollama</span><span>Automation</span>
     </div>
   </article>
 
-  <article class="project-card">
+  <article class="project-card" id="irc">
     <div class="project-heading">
       <div>
         <span class="project-kicker">AI SYSTEMS · 2025</span>
@@ -90,6 +101,11 @@ nav_order: 2
       automated reference retrieval, RAG, LangChain, and local LLMs</strong>. The system decomposes
       literature-review tasks through orchestrator, coordinator, and task-specific agents.
     </p>
+
+    <div class="project-facts">
+      <div><span>Contribution</span><strong>Implemented the hierarchical agent workflow for OCR, citation extraction, retrieval, and structured analysis.</strong></div>
+      <div><span>Outcome</span><strong>Automates literature-review preparation and structured knowledge extraction from academic papers.</strong></div>
+    </div>
 
     <div class="tech-tags">
       <span>Python</span><span>RAG</span><span>OCR</span><span>LangChain</span>
@@ -107,10 +123,10 @@ nav_order: 2
     </div>
   </article>
 
-  <article class="project-card">
+  <article class="project-card" id="agrivoltaics">
     <div class="project-heading">
       <div>
-        <span class="project-kicker">IOT / EDGE AI · 2024</span>
+        <span class="project-kicker">EMBEDDED / EDGE AI · 2024</span>
         <h2>Agrivoltaics Smart Micro-grid for Leisure Farms</h2>
       </div>
       <div class="project-links">
@@ -121,9 +137,14 @@ nav_order: 2
     <p>
       An AI- and IoT-enabled smart micro-grid integrating <strong>real-time solar monitoring,
       MQTT communication, sensor data, anomaly detection, automated LED control, and ML-based
-      yield prediction</strong>. This project is especially relevant to my interest in
-      software-to-device and edge-system integration.
+      yield prediction</strong>. The project connects device-facing sensing and control with
+      web-based monitoring and AI analysis.
     </p>
+
+    <div class="project-facts">
+      <div><span>Contribution</span><strong>Integrated sensing, MQTT communication, monitoring, automated control, and ML-based prediction into one application workflow.</strong></div>
+      <div><span>Outcome</span><strong>Received Honorable Mention in the 2024 Mobile Communications Practice Competition.</strong></div>
+    </div>
 
     <div class="tech-tags">
       <span>IoT</span><span>MQTT</span><span>Sensor Integration</span>
@@ -141,7 +162,7 @@ nav_order: 2
     </div>
   </article>
 
-  <article class="project-card">
+  <article class="project-card" id="badminton">
     <div class="project-heading">
       <div>
         <span class="project-kicker">COMPUTER VISION SOFTWARE · 2023</span>
@@ -155,13 +176,29 @@ nav_order: 2
     <p>
       An undergraduate capstone using <strong>YOLOv7 and OpenPose</strong> for badminton video analysis,
       action detection, joint extraction, posture comparison, and strategy-oriented analysis.
-      The project received <strong>First Place</strong> and the <strong>Most Popular Award</strong>.
     </p>
+
+    <div class="project-facts">
+      <div><span>Contribution</span><strong>Built the video-to-posture pipeline from event detection and player detection to OpenPose keypoint extraction and posture classification.</strong></div>
+      <div><span>Outcome</span><strong>First Place and Most Popular Award; the best evaluated representation reached 67.1% average classification accuracy.</strong></div>
+    </div>
 
     <div class="tech-tags">
       <span>Python</span><span>YOLOv7</span><span>OpenPose</span>
       <span>Computer Vision</span><span>Video Processing</span>
     </div>
+
+    <figure class="project-figure">
+      <img
+        src="{{ '/assets/img/projects/badminton-pipeline.png' | relative_url }}"
+        alt="Badminton hitting-posture detection pipeline from rally video to six training-data representations."
+        loading="lazy">
+      <figcaption>
+        Badminton hitting-posture detection pipeline. The evaluated representations include two image-based
+        variants and four vector-based variants; Normalized Vector + Z-score achieved the highest average
+        accuracy in this comparison.
+      </figcaption>
+    </figure>
   </article>
 
 </div>
@@ -181,6 +218,7 @@ nav_order: 2
   }
 
   .project-card {
+    scroll-margin-top: 90px;
     border: 1px solid var(--project-border);
     border-radius: 16px;
     padding: 1.4rem;
@@ -228,6 +266,38 @@ nav_order: 2
     white-space: nowrap;
   }
 
+  .project-facts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+    margin: 1rem 0;
+  }
+
+  .project-facts > div {
+    border-left: 3px solid var(--global-theme-color);
+    background: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
+    border-radius: 0 10px 10px 0;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .project-facts span {
+    display: block;
+    color: var(--project-muted);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+
+  .project-facts strong {
+    display: block;
+    color: var(--global-text-color);
+    font-size: 0.86rem;
+    font-weight: 500;
+    line-height: 1.55;
+  }
+
   .tech-tags {
     display: flex;
     flex-wrap: wrap;
@@ -243,13 +313,17 @@ nav_order: 2
     color: var(--project-muted);
   }
 
+  .project-video,
+  .project-figure {
+    width: 100%;
+    margin: 1.1rem 0 0;
+  }
+
   .project-video {
     position: relative;
-    width: 100%;
     aspect-ratio: 16 / 9;
     overflow: hidden;
     border-radius: 12px;
-    margin-top: 1.1rem;
     background: #000;
   }
 
@@ -260,9 +334,28 @@ nav_order: 2
     display: block;
   }
 
+  .project-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid var(--project-border);
+    border-radius: 12px;
+  }
+
+  .project-figure figcaption {
+    color: var(--project-muted);
+    font-size: 0.8rem;
+    line-height: 1.55;
+    margin-top: 0.55rem;
+  }
+
   @media (max-width: 680px) {
     .project-heading {
       flex-direction: column;
+    }
+
+    .project-facts {
+      grid-template-columns: 1fr;
     }
   }
 </style>

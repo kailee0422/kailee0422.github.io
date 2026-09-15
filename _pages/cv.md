@@ -12,7 +12,7 @@ nav_order: 4
   <div class="cv-heading">
     <div>
       <h1>Chong-Kai Li</h1>
-      <p>Software · Firmware-oriented Systems · AI Engineering</p>
+      <p>Software & AI Engineering · Embedded Systems</p>
     </div>
   </div>
 
@@ -40,7 +40,7 @@ nav_order: 4
         <h3>Taichung Second Senior High School</h3>
         <p>Mathematics and Science Gifted Program</p>
       </div>
-      <div class="cv-date"></div>
+      <div class="cv-date">2017 – 2019</div>
     </div>
   </section>
 
@@ -66,7 +66,7 @@ nav_order: 4
 
     <div class="cv-item">
       <div>
-        <h3><a href="{{ '/projects/' | relative_url }}">Multi-Source Attack Path Reconstruction with Weighted Attack Graphs</a></h3>
+        <h3><a href="{{ '/projects/#attack-path' | relative_url }}">Multi-Source Attack Path Reconstruction with Weighted Attack Graphs</a></h3>
         <p>
           Integrated Zeek/NetFlow, Suricata, Wazuh, VirusTotal CTI, transformer-based threat scoring,
           and weighted attack graphs in a Docker-based deployment.
@@ -77,7 +77,7 @@ nav_order: 4
 
     <div class="cv-item">
       <div>
-        <h3><a href="{{ '/projects/' | relative_url }}">NYCU-Bot — Multi-Agent Award Announcement & Social Media Automation</a></h3>
+        <h3><a href="{{ '/projects/#nycu-bot' | relative_url }}">NYCU-Bot — Multi-Agent Award Announcement & Social Media Automation</a></h3>
         <p>
           Built a hierarchical multi-agent automation system with LangChain, Ollama, local LLMs,
           web monitoring, and platform-specific publishing agents.
@@ -88,7 +88,7 @@ nav_order: 4
 
     <div class="cv-item">
       <div>
-        <h3><a href="{{ '/projects/' | relative_url }}">Intelligent Research Companion</a></h3>
+        <h3><a href="{{ '/projects/#irc' | relative_url }}">Intelligent Research Companion</a></h3>
         <p>
           Developed an academic-paper analysis workflow combining OCR, citation extraction,
           automated reference retrieval, RAG, and local LLMs.
@@ -99,7 +99,7 @@ nav_order: 4
 
     <div class="cv-item">
       <div>
-        <h3><a href="{{ '/projects/' | relative_url }}">Agrivoltaics Smart Micro-grid for Leisure Farms</a></h3>
+        <h3><a href="{{ '/projects/#agrivoltaics' | relative_url }}">Agrivoltaics Smart Micro-grid for Leisure Farms</a></h3>
         <p>
           Integrated MQTT-based monitoring, IoT sensing, anomaly detection, automated control,
           and ML-based yield prediction in a smart-energy application.
@@ -110,7 +110,7 @@ nav_order: 4
 
     <div class="cv-item">
       <div>
-        <h3><a href="{{ '/projects/' | relative_url }}">AI-Based Video Analysis for Badminton Strategy</a></h3>
+        <h3><a href="{{ '/projects/#badminton' | relative_url }}">AI-Based Video Analysis for Badminton Strategy</a></h3>
         <p>
           Built a computer-vision pipeline using YOLOv7 and OpenPose for badminton video,
           action, posture, and strategy analysis.
@@ -125,16 +125,20 @@ nav_order: 4
 
     <div class="cv-skill-grid">
       <div class="cv-skill-card">
-        <h3>Software & Systems</h3>
-        <p>C/C++, Python, Java, SQL, Linux, Shell, Docker, networking</p>
+        <h3>Programming</h3>
+        <p>C, C++, Python, Java, SQL</p>
+      </div>
+      <div class="cv-skill-card">
+        <h3>Systems</h3>
+        <p>Linux, Shell, Docker, networking, data pipelines</p>
+      </div>
+      <div class="cv-skill-card">
+        <h3>Embedded & Edge</h3>
+        <p>MQTT, IoT integration, sensor data, real-time monitoring, device-to-service workflows</p>
       </div>
       <div class="cv-skill-card">
         <h3>AI / Machine Learning</h3>
-        <p>PyTorch, Transformers, scikit-learn, OpenCV, RAG, SFT, LoRA, LangChain, Ollama</p>
-      </div>
-      <div class="cv-skill-card">
-        <h3>IoT / Edge Integration</h3>
-        <p>MQTT, sensor integration, real-time monitoring, web-connected device workflows</p>
+        <p>PyTorch, Transformers, scikit-learn, OpenCV, RAG, LangChain, Ollama</p>
       </div>
     </div>
   </section>
@@ -242,7 +246,7 @@ nav_order: 4
 
   .cv-skill-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.8rem;
   }
 

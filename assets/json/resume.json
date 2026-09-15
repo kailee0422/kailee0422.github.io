@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Chong-Kai Li",
-    "label": "Software, Firmware & AI Engineering",
+    "label": "Software & AI Engineering · Embedded Systems",
     "email": "aa34239387@gmail.com",
     "url": "https://kailee0422.github.io",
     "profiles": [
@@ -26,6 +26,17 @@
       "studyType": "Bachelor's Program",
       "startDate": "2019-09",
       "endDate": "2024-07"
+    },
+    {
+      "institution": "Taichung Second Senior High School",
+      "location": "Taichung, Taiwan",
+      "url": "",
+      "area": "Mathematics and Science Gifted Program",
+      "studyType": "High School",
+      "startDate": "2017",
+      "endDate": "2019",
+      "score": "",
+      "courses": []
     }
   ],
   "work": [
