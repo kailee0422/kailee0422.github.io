@@ -3,6 +3,7 @@ name: Update LeetCode stats
 on:
   workflow_dispatch:
   schedule:
+    # Runs daily at 00:17 UTC (08:17 Taiwan time)
     - cron: "17 0 * * *"
   push:
     paths:
@@ -11,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: update-leetcode-stats
@@ -35,14 +37,28 @@ jobs:
         run: python scripts/update_leetcode.py
 
       - name: Commit updated statistics
+        id: commit
+        shell: bash
         run: |
           if git diff --quiet -- _data/leetcode.json; then
             echo "No LeetCode changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add _data/leetcode.json
           git commit -m "chore: update LeetCode statistics"
           git push
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # A push created with GITHUB_TOKEN does not normally trigger another
+      # push-based workflow. Explicitly dispatch al-folio's deploy workflow.
+      - name: Trigger al-folio deployment
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
