@@ -19,3 +19,17 @@ The workflow supports both **one-shot execution** and **continuous polling**, an
 **Topics:** Multi-Agent Systems · LLMs · LangChain · Ollama · Social Media Automation · Web Monitoring
 
 [GitHub repository](https://github.com/kailee0422/automatic-social-media-post)
+
+## System architecture
+
+<figure style="margin: 1.25rem 0;">
+  <img
+    src="{{ '/assets/img/projects/nycu-bot-architecture.png' | relative_url }}"
+    alt="Architecture diagram of NYCU-Bot showing InformationAgent, FatherAgent, MotherAgent, ContentAgent, social platform agents, and a local LLM via Ollama."
+    style="width:100%;height:auto;border-radius:12px;border:1px solid var(--global-divider-color);"
+    loading="lazy">
+  <figcaption style="margin-top:0.6rem;color:var(--global-text-color-light);font-size:0.85rem;line-height:1.55;">
+    The architecture shows the flow from website monitoring to announcement detection, task assignment,
+    content generation, and platform-specific publishing. The ContentAgent uses a local LLM via Ollama.
+  </figcaption>
+</figure>

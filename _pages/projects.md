@@ -83,6 +83,17 @@ nav_order: 2
       <span>Python</span><span>Multi-Agent Systems</span><span>LangChain</span>
       <span>Ollama</span><span>Automation</span>
     </div>
+
+    <figure class="project-figure">
+      <img
+        src="{{ '/assets/img/projects/nycu-bot-architecture.png' | relative_url }}"
+        alt="Architecture diagram of NYCU-Bot showing InformationAgent, FatherAgent, MotherAgent, ContentAgent, social platform agents, and a local LLM via Ollama."
+        loading="lazy">
+      <figcaption>
+        Architecture of NYCU-Bot. The workflow starts from award news monitoring, passes through
+        coordinator agents, and then routes generated content to platform-specific posting agents.
+      </figcaption>
+    </figure>
   </article>
 
   <article class="project-card" id="irc">
