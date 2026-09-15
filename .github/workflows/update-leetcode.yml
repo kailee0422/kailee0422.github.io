@@ -1,0 +1,48 @@
+name: Update LeetCode stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0 * * *"
+  push:
+    paths:
+      - "scripts/update_leetcode.py"
+      - ".github/workflows/update-leetcode.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-leetcode-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch LeetCode statistics
+        env:
+          LEETCODE_USERNAME: KevinLee777
+        run: python scripts/update_leetcode.py
+
+      - name: Commit updated statistics
+        run: |
+          if git diff --quiet -- _data/leetcode.json; then
+            echo "No LeetCode changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/leetcode.json
+          git commit -m "chore: update LeetCode statistics"
+          git push
