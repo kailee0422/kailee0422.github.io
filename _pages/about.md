@@ -6,7 +6,7 @@ subtitle: "AI & Cybersecurity Researcher · Multi-Agent Systems · Applied Machi
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>National Yang Ming Chiao Tung University</p>
@@ -21,7 +21,9 @@ announcements:
   limit: 5
 ---
 
-Hi! I am **Chong-Kai Li**, a master's student at the **Institute of Artificial Intelligence, National Yang Ming Chiao Tung University (NYCU)**. My work focuses on **cybersecurity, intelligent agents, and applied machine learning**, with an emphasis on building end-to-end systems that connect research ideas with deployable software.
+Hi! I am **Chong-Kai Li**, a master's student at the **Institute of Artificial Intelligence, National Yang Ming Chiao Tung University (NYCU)**.
+
+My work focuses on **cybersecurity, intelligent agents, and applied machine learning**, with an emphasis on building end-to-end systems that connect research ideas with deployable software.
 
 My recent work includes **multi-source cyber threat analysis and attack-path reconstruction**, **multi-agent automation**, **retrieval-augmented academic research assistants**, and **computer-vision systems**. I am particularly interested in **AI for cybersecurity**, **LLM/agent systems**, **RAG and domain adaptation**, and **reliable ML deployment**.
 
