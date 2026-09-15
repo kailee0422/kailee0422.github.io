@@ -113,6 +113,9 @@ nav_order: 2
         <span class="project-kicker">IOT / EDGE AI · 2024</span>
         <h2>Agrivoltaics Smart Micro-grid for Leisure Farms</h2>
       </div>
+      <div class="project-links">
+        <a href="https://github.com/Lonelypheonix/TaiZhi/tree/main/TaiZhi" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
     </div>
 
     <p>
@@ -145,7 +148,7 @@ nav_order: 2
         <h2>AI-Based Video Analysis for Badminton Strategy</h2>
       </div>
       <div class="project-links">
-        <a href="https://github.com/Lonelypheonix/TaiZhi/tree/main/TaiZhi" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://github.com/kailee0422/badminton-posture" target="_blank" rel="noopener">GitHub ↗</a>
       </div>
     </div>
 

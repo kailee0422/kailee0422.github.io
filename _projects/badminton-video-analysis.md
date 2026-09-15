@@ -4,7 +4,7 @@ title: "AI-Based Video Analysis for Badminton Strategy"
 description: "A computer-vision capstone that analyzes badminton actions and player posture using YOLOv7 and OpenPose."
 importance: 5
 category: applied-ai
-github: https://github.com/Lonelypheonix/TaiZhi/tree/main/TaiZhi
+github: https://github.com/kailee0422/badminton-posture
 ---
 
 ## Overview
@@ -17,4 +17,4 @@ It received **First Place** and the **Most Popular Award** in the graduation cap
 
 **Topics:** Computer Vision · YOLOv7 · OpenPose · Video Analysis · Sports Analytics
 
-[GitHub repository](https://github.com/Lonelypheonix/TaiZhi/tree/main/TaiZhi) · [First Place certificate]({{ '/assets/pdf/NUTN_Capstone_First_Place.pdf' | relative_url }}) · [Most Popular Award certificate]({{ '/assets/pdf/NUTN_Capstone_Most_Popular_Award.pdf' | relative_url }})
+[GitHub repository](https://github.com/kailee0422/badminton-posture) · [First Place certificate]({{ '/assets/pdf/NUTN_Capstone_First_Place.pdf' | relative_url }}) · [Most Popular Award certificate]({{ '/assets/pdf/NUTN_Capstone_Most_Popular_Award.pdf' | relative_url }})
