@@ -2,33 +2,37 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "AI & Cybersecurity Researcher · Multi-Agent Systems · Applied Machine Learning"
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>National Yang Ming Chiao Tung University</p>
+    <p>Taiwan</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: false
+  limit: 5
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am **Chong-Kai Li**, a master's student at the **Institute of Artificial Intelligence, National Yang Ming Chiao Tung University (NYCU)**. My work focuses on **cybersecurity, intelligent agents, and applied machine learning**, with an emphasis on building end-to-end systems that connect research ideas with deployable software.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My recent work includes **multi-source cyber threat analysis and attack-path reconstruction**, **multi-agent automation**, **retrieval-augmented academic research assistants**, and **computer-vision systems**. I am particularly interested in **AI for cybersecurity**, **LLM/agent systems**, **RAG and domain adaptation**, and **reliable ML deployment**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining NYCU, I earned my B.S. in **Computer Science and Information Engineering** from the **National University of Tainan**. My undergraduate capstone on AI-based badminton video analysis received **First Place** and the **Most Popular Award** in the department's graduation project competition.
+
+I have also worked as an **AI Engineer Intern**, where I developed an intelligent question-answering system for manufacturing operations and applied techniques including **RAG, SFT, and LoRA** for domain adaptation.
+
+[**View Projects**]({{ '/projects/' | relative_url }}) · [**View CV**]({{ '/cv/' | relative_url }}) · [**Awards & Honors**]({{ '/awards/' | relative_url }}) · [**Download Résumé (PDF)**]({{ '/assets/pdf/Chong-Kai_Li_Resume.pdf' | relative_url }})
+
+## Featured work
+
+- **Multi-Source Attack Path Reconstruction with Weighted Attack Graphs** — cyber threat analysis integrating network, host, and CTI signals.
+- **NYCU-Bot** — a multi-agent system for bilingual award announcement and social-media automation.
+- **Intelligent Research Companion** — a multi-agent academic paper analysis workflow with OCR, citation extraction, RAG, and local LLMs.
