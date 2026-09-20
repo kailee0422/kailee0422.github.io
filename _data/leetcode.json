@@ -2,27 +2,27 @@
   "username": "KevinLee777",
   "profile_url": "https://leetcode.com/u/KevinLee777/",
   "solved": {
-    "total": 158,
+    "total": 159,
     "easy": 54,
-    "medium": 89,
+    "medium": 90,
     "hard": 15
   },
   "distribution": {
-    "easy_pct": 34.2,
-    "medium_pct": 56.3,
-    "hard_pct": 9.5,
-    "easy_plus_medium_pct": 90.5
+    "easy_pct": 34.0,
+    "medium_pct": 56.6,
+    "hard_pct": 9.4,
+    "easy_plus_medium_pct": 90.6
   },
   "languages": [
     {
       "name": "C++",
-      "problems_solved": 137,
+      "problems_solved": 138,
       "relative_pct": 100.0
     },
     {
       "name": "C",
       "problems_solved": 20,
-      "relative_pct": 14.6
+      "relative_pct": 14.5
     },
     {
       "name": "Bash",
@@ -30,6 +30,6 @@
       "relative_pct": 2.9
     }
   ],
-  "ranking": 1097443,
-  "last_updated": "2026-09-19 04:35"
+  "ranking": 1098077,
+  "last_updated": "2026-09-20 04:51"
 }
