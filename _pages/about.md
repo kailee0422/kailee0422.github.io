@@ -46,13 +46,13 @@ I have also worked as an **AI Engineer Intern**, where I developed an intelligen
 <div class="home-project-grid">
   <a class="home-project-card" href="{{ '/projects/#attack-path' | relative_url }}">
     <span>Software & AI Systems</span>
-    <strong>Multi-Source Attack Path Reconstruction</strong>
+    <strong>Graph-Based Attack Path Extraction</strong>
     <small>Data pipelines · Networking · Transformers · Docker</small>
   </a>
 
   <a class="home-project-card" href="{{ '/projects/#agrivoltaics' | relative_url }}">
     <span>Embedded / IoT</span>
-    <strong>Agrivoltaics Smart Micro-grid</strong>
+    <strong>Smart Microgrid for Agrivoltaics</strong>
     <small>MQTT · Sensors · Real-time monitoring · ML</small>
   </a>
 

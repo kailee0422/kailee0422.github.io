@@ -22,7 +22,7 @@ nav_order: 2
     <div class="project-heading">
       <div>
         <span class="project-kicker">SOFTWARE & AI SYSTEMS · 2025–2026</span>
-        <h2>Multi-Source Attack Path Reconstruction with Weighted Attack Graphs</h2>
+        <h2>Extracting Attack Path Based on Multiple Sightings Using Graph-based Algorithms</h2>
       </div>
       <div class="project-links">
         <a href="https://github.com/kailee0422/network-threat-detection-deploy" target="_blank" rel="noopener">GitHub ↗</a>
@@ -30,9 +30,14 @@ nav_order: 2
     </div>
 
     <p>
-      An end-to-end threat-analysis platform integrating <strong>Zeek/NetFlow, Suricata, Wazuh,
-      VirusTotal CTI, transformer-based threat scoring, and weighted attack graphs</strong>.
-      The system reconstructs time-ordered attack paths and was deployed on TWCC with Docker Compose.
+      An attack-path reconstruction system that fuses <strong>multiple independent sightings of each
+      network event</strong> — Suricata (NIDS) alerts, Wazuh (HIDS) alerts, Zeek/NetFlow traffic, and
+      VirusTotal CTI — into a single weighted threat score. A two-stream model (a MaliciousFlowTransformer
+      over flow features and a SecureBERT-based branch over alert text, combined through dynamic decision
+      fusion) supplies the network-behavioral signal, and the four signals are fused into a weighted
+      directed attack graph. A reverse beam search from a known victim host then reconstructs the most
+      probable time-ordered attack path back to the attacker; the system was deployed on TWCC with
+      Docker Compose.
     </p>
 
     <div class="project-facts">
@@ -60,7 +65,7 @@ nav_order: 2
     <div class="project-heading">
       <div>
         <span class="project-kicker">AI SOFTWARE ENGINEERING · 2025</span>
-        <h2>NYCU-Bot — Multi-Agent Award Announcement & Social Media Automation</h2>
+        <h2>Automatic Social Media Post: A Multi-Agent System for NYCU Award Announcements</h2>
       </div>
       <div class="project-links">
         <a href="https://github.com/kailee0422/automatic-social-media-post" target="_blank" rel="noopener">GitHub ↗</a>
@@ -87,10 +92,10 @@ nav_order: 2
     <figure class="project-figure">
       <img
         src="{{ '/assets/img/projects/nycu-bot-architecture.png' | relative_url }}"
-        alt="Architecture diagram of NYCU-Bot showing InformationAgent, FatherAgent, MotherAgent, ContentAgent, social platform agents, and a local LLM via Ollama."
+        alt="Architecture diagram of the automatic social media post system showing InformationAgent, FatherAgent, MotherAgent, ContentAgent, social platform agents, and a local LLM via Ollama."
         loading="lazy">
       <figcaption>
-        Architecture of NYCU-Bot. The workflow starts from award news monitoring, passes through
+        Architecture of the automatic social media post system. The workflow starts from award news monitoring, passes through
         coordinator agents, and then routes generated content to platform-specific posting agents.
       </figcaption>
     </figure>
@@ -138,10 +143,10 @@ nav_order: 2
     <div class="project-heading">
       <div>
         <span class="project-kicker">EMBEDDED / EDGE AI · 2024</span>
-        <h2>Agrivoltaics Smart Micro-grid for Leisure Farms</h2>
+        <h2>Smart IoT-Based Microgrid Monitoring and Management Platform for Agrivoltaics</h2>
       </div>
       <div class="project-links">
-        <a href="https://github.com/Lonelypheonix/TaiZhi/tree/main/TaiZhi" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://github.com/kailee0422/Smart-IoT-Based-Microgrid-Monitoring-and-Management-Platform-for-Agrivoltaics" target="_blank" rel="noopener">GitHub ↗</a>
       </div>
     </div>
 
@@ -165,7 +170,7 @@ nav_order: 2
     <div class="project-video">
       <iframe
         src="https://www.youtube-nocookie.com/embed/WWejlb_-U-Q"
-        title="Agrivoltaics Smart Micro-grid for Leisure Farms"
+        title="Smart IoT-Based Microgrid Monitoring and Management Platform for Agrivoltaics"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>

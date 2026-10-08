@@ -66,7 +66,7 @@ nav_order: 4
 
     <div class="cv-item">
       <div>
-        <h3><a href="{{ '/projects/#attack-path' | relative_url }}">Multi-Source Attack Path Reconstruction with Weighted Attack Graphs</a></h3>
+        <h3><a href="{{ '/projects/#attack-path' | relative_url }}">Extracting Attack Path Based on Multiple Sightings Using Graph-based Algorithms</a></h3>
         <p>
           Integrated Zeek/NetFlow, Suricata, Wazuh, VirusTotal CTI, transformer-based threat scoring,
           and weighted attack graphs in a Docker-based deployment.
@@ -77,7 +77,7 @@ nav_order: 4
 
     <div class="cv-item">
       <div>
-        <h3><a href="{{ '/projects/#nycu-bot' | relative_url }}">NYCU-Bot — Multi-Agent Award Announcement & Social Media Automation</a></h3>
+        <h3><a href="{{ '/projects/#nycu-bot' | relative_url }}">Automatic Social Media Post: A Multi-Agent System for NYCU Award Announcements</a></h3>
         <p>
           Built a hierarchical multi-agent automation system with LangChain, Ollama, local LLMs,
           web monitoring, and platform-specific publishing agents.
@@ -99,7 +99,7 @@ nav_order: 4
 
     <div class="cv-item">
       <div>
-        <h3><a href="{{ '/projects/#agrivoltaics' | relative_url }}">Agrivoltaics Smart Micro-grid for Leisure Farms</a></h3>
+        <h3><a href="{{ '/projects/#agrivoltaics' | relative_url }}">Smart IoT-Based Microgrid Monitoring and Management Platform for Agrivoltaics</a></h3>
         <p>
           Integrated MQTT-based monitoring, IoT sensing, anomaly detection, automated control,
           and ML-based yield prediction in a smart-energy application.

@@ -1,15 +1,16 @@
 ---
 layout: page
-title: "Agrivoltaics Smart Micro-grid for Leisure Farms"
+title: "Smart IoT-Based Microgrid Monitoring and Management Platform for Agrivoltaics"
 description: "An AI- and IoT-enabled agrivoltaics system combining solar monitoring, anomaly detection, lighting control, and yield prediction."
 importance: 4
 category: applied-ai
-github: https://github.com/Lonelypheonix/TaiZhi/tree/main/TaiZhi
+github: https://github.com/kailee0422/Smart-IoT-Based-Microgrid-Monitoring-and-Management-Platform-for-Agrivoltaics
+github_stars: kailee0422/Smart-IoT-Based-Microgrid-Monitoring-and-Management-Platform-for-Agrivoltaics
 ---
 
 ## Overview
 
-This project explores an **agrivoltaics smart micro-grid** for leisure farms by combining renewable-energy monitoring, IoT sensing, and machine learning.
+This project explores a **smart IoT-based microgrid monitoring and management platform** for agrivoltaics by combining renewable-energy monitoring, IoT sensing, and machine learning.
 
 Key components include **real-time solar monitoring with MQTT**, **AI-based anomaly detection**, automated LED lighting control, and an ML model for yield prediction using environmental measurements and public datasets. The system was integrated into a web platform with LDR-based real-time sensing.
 
@@ -17,8 +18,8 @@ The project received **Honorable Mention** in the **2024 Mobile Communications P
 
 **Topics:** IoT · MQTT · Smart Energy · Machine Learning · Anomaly Detection · Web Systems
 
-[GitHub repository](https://github.com/Lonelypheonix/TaiZhi/tree/main/TaiZhi) · [Project video](https://youtu.be/WWejlb_-U-Q) · [Award certificate]({{ '/assets/pdf/Mobile_Communications_Practice_Competition_2024.pdf' | relative_url }})
+[GitHub repository](https://github.com/kailee0422/Smart-IoT-Based-Microgrid-Monitoring-and-Management-Platform-for-Agrivoltaics) · [Project video](https://youtu.be/WWejlb_-U-Q) · [Award certificate]({{ '/assets/pdf/Mobile_Communications_Practice_Competition_2024.pdf' | relative_url }})
 
 <div style="width:100%;aspect-ratio:16/9;margin-top:1rem;">
-  <iframe src="https://www.youtube-nocookie.com/embed/WWejlb_-U-Q" title="Agrivoltaics Smart Micro-grid for Leisure Farms" style="width:100%;height:100%;border:0;border-radius:12px;" loading="lazy" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/WWejlb_-U-Q" title="Smart IoT-Based Microgrid Monitoring and Management Platform for Agrivoltaics" style="width:100%;height:100%;border:0;border-radius:12px;" loading="lazy" allowfullscreen></iframe>
 </div>

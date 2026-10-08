@@ -54,7 +54,7 @@ nav_order: 3
         <h3>Honorable Mention — 2024 Mobile Communications Practice Competition</h3>
         <p class="award-org">Smart Energy & Internet of Things Applications Track</p>
         <p class="award-description">
-          Awarded for <strong>Agrivoltaics Smart Micro-grid for Leisure Farms</strong>.
+          Awarded for <strong>Smart IoT-Based Microgrid Monitoring and Management Platform for Agrivoltaics</strong>.
         </p>
         <p class="award-date">December 7, 2024</p>
       </div>

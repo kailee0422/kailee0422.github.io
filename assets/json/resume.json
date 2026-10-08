@@ -55,10 +55,10 @@
   ],
   "projects": [
     {
-      "name": "Multi-Source Attack Path Reconstruction with Weighted Attack Graphs",
+      "name": "Extracting Attack Path Based on Multiple Sightings Using Graph-based Algorithms",
       "startDate": "2025-09",
       "endDate": "2026-08",
-      "description": "NICS-sponsored cyber threat analysis system integrating Zeek/NetFlow, Suricata, Wazuh, and VirusTotal CTI with transformer-based threat scoring and weighted attack-graph reconstruction.",
+      "description": "NICS-sponsored system that reconstructs attack paths by fusing multiple sightings from Zeek/NetFlow, Suricata, Wazuh, and VirusTotal CTI into a weighted attack graph via transformer-based threat scoring and graph-based reverse beam search.",
       "url": "https://github.com/kailee0422/network-threat-detection-deploy",
       "highlights": [
         "Designed a dual-stream MaliciousFlowTransformer + SecureBERT 2.0 threat-scoring model.",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "name": "NYCU-Bot — Multi-Agent Award Announcement & Social Media Automation",
+      "name": "Automatic Social Media Post: A Multi-Agent System for NYCU Award Announcements",
       "startDate": "2025-09",
       "endDate": "2025-12",
       "description": "Hierarchical multi-agent system that monitors award announcements and generates bilingual social-media posts.",
@@ -87,17 +87,18 @@
       "url": "https://github.com/kailee0422/RNN-Transformer/tree/main/Final%20Project%20-IRC"
     },
     {
-      "name": "Agrivoltaics Smart Micro-grid for Leisure Farms",
+      "name": "Smart IoT-Based Microgrid Monitoring and Management Platform for Agrivoltaics",
       "startDate": "2024-12",
       "endDate": "2024-12",
-      "description": "AI- and IoT-enabled agrivoltaics system for solar monitoring, anomaly detection, lighting control, and yield prediction."
+      "description": "AI- and IoT-enabled agrivoltaics system for solar monitoring, anomaly detection, lighting control, and yield prediction.",
+      "url": "https://github.com/kailee0422/Smart-IoT-Based-Microgrid-Monitoring-and-Management-Platform-for-Agrivoltaics"
     },
     {
       "name": "AI-Based Video Analysis for Badminton Strategy",
       "startDate": "2023-12",
       "endDate": "2023-12",
       "description": "Computer-vision capstone using YOLOv7 and OpenPose for badminton video and posture analysis.",
-      "url": "https://github.com/Lonelypheonix/TaiZhi/tree/main/TaiZhi"
+      "url": "https://github.com/kailee0422/badminton-posture"
     }
   ],
   "awards": [
