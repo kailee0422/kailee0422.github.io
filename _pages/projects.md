@@ -2,21 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: "Software, embedded/edge, and AI engineering projects with source code, demos, and outcomes."
+description: "Software, embedded/edge, and AI engineering projects, with source code linked from each one."
 nav: true
 nav_order: 2
 ---
 
 <div class="portfolio-projects">
-
-  <div class="projects-intro">
-    <p>
-      Selected projects spanning <strong>software engineering, embedded/edge systems,
-      AI engineering, automation, and computer vision</strong>. Each project highlights
-      what I built, the technologies used, and the resulting outcome. Source code is linked
-      directly from each project.
-    </p>
-  </div>
 
   <article class="project-card" id="attack-path">
     <div class="project-heading">
@@ -223,14 +214,6 @@ nav_order: 2
   .portfolio-projects {
     --project-border: var(--global-divider-color, #d8d8d8);
     --project-muted: var(--global-text-color-light, #767676);
-  }
-
-  .projects-intro {
-    max-width: 820px;
-    margin: 0 0 1.5rem;
-    color: var(--project-muted);
-    font-size: 1rem;
-    line-height: 1.75;
   }
 
   .project-card {
